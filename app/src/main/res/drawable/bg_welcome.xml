@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="640dp"
+    android:viewportWidth="360"
+    android:viewportHeight="640">
+
+    <!-- Fundo principal -->
+    <path
+        android:fillColor="#1DB954"
+        android:pathData="M0,0h360v640h-360z"/>
+
+    <!-- Onda superior -->
+    <path
+        android:fillColor="#159A45"
+        android:pathData="
+            M0,0
+            C120,80 240,0 360,60
+            L360,0
+            Z"/>
+
+    <!-- Onda inferior -->
+    <path
+        android:fillColor="#159A45"
+        android:pathData="
+            M0,640
+            C120,560 240,640 360,580
+            L360,640
+            Z"/>
+</vector>
